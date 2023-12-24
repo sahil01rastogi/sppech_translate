@@ -1,4 +1,4 @@
- torch
+torch~=2.0.1
 torchvision
 torchaudio
 deep-translator==1.11.0
@@ -16,3 +16,12 @@ darkdetect==0.8.0
 arabic-reshaper==3.0.0
 openai-whisper==20230314
 whisper-timestamped @ git+https://github.com/linto-ai/whisper-timestamped.git
+setuptools~=60.2.0
+googletrans~=3.0.0
+playsound~=1.2.2
+gTTS~=2.4.0
+future~=0.18.3
+numpy~=1.24.4
+PyAudioWPatch~=0.2.12.5
+PyAudio~=0.2.13
+pyttsx3~=2.90
