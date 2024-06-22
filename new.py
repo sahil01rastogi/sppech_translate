@@ -61,7 +61,7 @@ class TranslationApp:
 
         try:
             input_text = recognizer.recognize_google(audio)
-            self.text_input_entry.delete(0, tk.END)
+            self.text_inpt_entry.delete(0, tk.END)
             self.text_input_entry.insert(0, input_text)
         except sr.UnknownValueError:
             tk.messagebox.showwarning("Error", "Could not understand audio")

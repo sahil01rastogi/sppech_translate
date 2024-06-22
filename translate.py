@@ -25,10 +25,10 @@ while True:
         except sr.RequestError:
             print("could not request result from google")
 
-        translated_text = GoogleTranslator(source='auto', target='gu').translate(speech_text)
+        translated_text = GoogleTranslator(source='auto', target='en').translate(speech_text)
         print(translated_text)
 
-        voice = gTTS(translated_text, lang='gu')
+        voice = gTTS(translated_text, lang='en')
         voice.save("one.mp3")
         playsound("one.mp3")
         os.remove("one.mp3")
